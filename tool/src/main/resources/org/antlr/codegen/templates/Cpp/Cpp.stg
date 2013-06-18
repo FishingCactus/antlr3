@@ -1387,6 +1387,7 @@ lexerRule(ruleName,nakedBlock,ruleDescriptor,block,memoize) ::= <<
 void <name>::m<ruleName>(<ruleDescriptor.parameterScope:parameterScope()>)
 {
     ANTLR_UINT32	_type;
+    (void) _type;
     <ruleDeclarations()>
     <ruleDescriptor.actions.declarations>
     <lexerRuleLabelDefs()>
